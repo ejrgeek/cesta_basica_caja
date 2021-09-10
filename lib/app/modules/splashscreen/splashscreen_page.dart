@@ -11,7 +11,18 @@ class SplashscreenPage extends StatefulWidget {
 }
 
 class SplashscreenPageState extends State<SplashscreenPage> {
-  final SplashscreenStore store = Modular.get();
+  final SplashscreenStore store = Modular.get<SplashscreenStore>();
+
+  goToLoginOrHome() {
+    Future.delayed(
+        Duration(seconds: 2), () => Modular.to.pushReplacementNamed('/login'));
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    goToLoginOrHome();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -35,14 +46,14 @@ class SplashscreenPageState extends State<SplashscreenPage> {
             children: <Widget>[
               //
               Expanded(
-                flex: 2,
+                flex: 3,
                 child: Container(),
               ),
               //
               Expanded(
                 flex: 2,
-                child: FlutterLogo(
-                  size: 100,
+                child: Image.asset(
+                  'assets/img/icon.png',
                 ),
               ),
               //
@@ -51,11 +62,14 @@ class SplashscreenPageState extends State<SplashscreenPage> {
                 child: Column(
                   children: [
                     //
-                    Text(
-                      "Cesta Básica Caja",
-                      style: TextStyle(
-                        fontSize: 30,
-                        color: Colors.white,
+                    Padding(
+                      padding: const EdgeInsets.only(top: 10),
+                      child: Text(
+                        "Cesta Básica Caja",
+                        style: TextStyle(
+                          fontSize: 30,
+                          color: Colors.white,
+                        ),
                       ),
                     ),
                     //
