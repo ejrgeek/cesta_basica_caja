@@ -73,7 +73,7 @@ class CreateAccountPageState extends State<CreateAccountPage> {
           ),
           //
           Container(
-            height: h * .35,
+            height: h * .4,
             child: Observer(
               builder: (_) {
                 return pages[store.pagePosition];

@@ -73,7 +73,7 @@ flutter_icons:
   ios: true
   android: true
   remove_alpha_ios: true
-  image_path: 'assets/img/icon.png'
+  image_path: 'assets/img/icon_app.png'
   adaptive_icon_background: "#FFFFFF"
 
 # The following section is specific to Flutter.
