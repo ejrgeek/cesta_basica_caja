@@ -1,5 +1,5 @@
-import 'package:cesta_basica_caja/app/modules/create_account/createAccount_Page.dart';
-import 'package:cesta_basica_caja/app/modules/create_account/createAccount_store.dart';
+import 'package:cesta_basica_caja/app/modules/create_account/create_account_page.dart';
+import 'package:cesta_basica_caja/app/modules/create_account/create_account_store.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 class CreateAccountModule extends Module {
