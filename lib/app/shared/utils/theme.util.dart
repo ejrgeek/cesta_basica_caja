@@ -18,10 +18,12 @@ abstract class ThemeUtil {
 
   //* ICONS
   static const mainLogo = 'assets/img/icon.png';
+  static const mainLogoWhite = 'assets/img/icon-white.png';
   static const whatsappLogo = 'assets/img/whatsapp_white.svg';
   static const confirmationIconDialog =
       'assets/img/confirmation_icon_dialog.svg';
   static const errorIconDialog = 'assets/img/error_icon_dialog.svg';
+  static const supermarket = 'assets/img/supermercado.png';
 
   //? FONTS
 

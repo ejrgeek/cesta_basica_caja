@@ -38,7 +38,6 @@ class _InputPersonalDataPageState extends State<InputPersonalDataPage> {
                 ),
                 width: w * .8,
                 child: TextFormField(
-                  obscureText: true,
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
                     enabledBorder: OutlineInputBorder(
