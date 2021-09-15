@@ -19,6 +19,7 @@ class SupportersMonthlyPage extends StatelessWidget {
           AppBar(
             backgroundColor: ThemeUtil.mainPurpleColor,
             title: Text("Apoiadores do mês"),
+            centerTitle: true,
           ),
           //
           Container(

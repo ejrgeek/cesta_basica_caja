@@ -48,7 +48,7 @@ class LoginPageState extends State<LoginPage> {
                   ),
                   //
                   Container(
-                    height: h * .4,
+                    height: h * .5,
                     child: Form(
                       key: _formKey,
                       child: Container(

@@ -30,6 +30,7 @@ class _ProfilePageState extends State<ProfilePage> {
             onPressed: widget.onMenuPressed,
           ),
           title: Text("Meu perfil"),
+          centerTitle: true,
           actions: [
             IconButton(
               icon: Icon(

@@ -102,6 +102,7 @@ class _DrawnPeoplePageState extends State<DrawnPeoplePage> {
             onPressed: widget.onMenuPressed,
           ),
           title: Text("Sorteados"),
+          centerTitle: true,
           actions: [
             IconButton(
               icon: Icon(

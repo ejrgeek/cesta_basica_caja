@@ -40,6 +40,7 @@ class CreateAccountPageState extends State<CreateAccountPage> {
             return Text("Etapa ${store.pagePosition + 1} de 4");
           },
         ),
+        centerTitle: true,
         elevation: 0,
       ),
       body: Column(
@@ -73,7 +74,7 @@ class CreateAccountPageState extends State<CreateAccountPage> {
           ),
           //
           Container(
-            height: h * .4,
+            height: h * .45,
             child: Observer(
               builder: (_) {
                 return pages[store.pagePosition];

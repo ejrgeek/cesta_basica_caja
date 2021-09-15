@@ -30,6 +30,7 @@ class _InitialPageState extends State<InitialPage> {
             onPressed: widget.onMenuPressed,
           ),
           title: Text("Página inicial"),
+          centerTitle: true,
           actions: [
             IconButton(
               icon: Icon(
@@ -156,11 +157,11 @@ class _InitialPageState extends State<InitialPage> {
               ),
               //
               Padding(
-                padding: const EdgeInsets.only(top: 50),
+                padding: const EdgeInsets.only(top: 25),
                 child: Container(
                   padding: EdgeInsets.symmetric(vertical: 20),
                   width: w * .8,
-                  height: h * .25,
+                  height: h * .3,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
                     border:
@@ -194,11 +195,11 @@ class _InitialPageState extends State<InitialPage> {
         //
         Container(
           width: w * .8,
-          height: h * .25,
+          height: h * .2,
           color: Colors.red,
           alignment: Alignment.center,
-          child: Text("PROPAGANDA ADS GANHAR GRANA"),
-        )
+          child: Text("PROPAGANDAS"),
+        ),
         //
       ],
     );

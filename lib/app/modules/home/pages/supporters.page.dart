@@ -115,6 +115,7 @@ class _SupportersPageState extends State<SupportersPage> {
             onPressed: widget.onMenuPressed,
           ),
           title: Text("Apoiadores"),
+          centerTitle: true,
           actions: [
             IconButton(
               icon: Icon(

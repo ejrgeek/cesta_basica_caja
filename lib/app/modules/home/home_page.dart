@@ -7,6 +7,7 @@ import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:kf_drawer/kf_drawer.dart';
 
+import 'pages/about_us.page.dart';
 import 'pages/drawn_people.page.dart';
 import 'pages/contact.page.dart';
 import 'pages/initial.page.dart';
@@ -83,6 +84,19 @@ class _HomePageState extends ModularState<HomePage, HomeStore> {
             color: Colors.white,
           ),
           page: ContactPage(),
+        ),
+        KFDrawerItem.initWithPage(
+          text: Text(
+            'Sobre nós',
+            style: TextStyle(
+              color: Colors.white,
+            ),
+          ),
+          icon: Icon(
+            Icons.info,
+            color: Colors.white,
+          ),
+          page: AboutUsPage(),
         ),
       ],
     );

@@ -39,6 +39,7 @@ class _ContactPageState extends State<ContactPage> {
             onPressed: widget.onMenuPressed,
           ),
           title: Text("Página de contato"),
+          centerTitle: true,
           actions: [
             IconButton(
               icon: Icon(

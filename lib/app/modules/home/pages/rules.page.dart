@@ -38,6 +38,7 @@ class _RulesPageState extends State<RulesPage> {
             onPressed: widget.onMenuPressed,
           ),
           title: Text("Regras"),
+          centerTitle: true,
           actions: [
             IconButton(
               icon: Icon(
