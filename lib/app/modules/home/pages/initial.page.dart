@@ -1,5 +1,7 @@
+import 'package:cesta_basica_caja/app/shared/components/ticket_ui.dart';
 import 'package:cesta_basica_caja/app/shared/utils/theme.util.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
 import 'package:flutter/widgets.dart';
 import 'package:kf_drawer/kf_drawer.dart';
 
@@ -73,6 +75,32 @@ class _InitialPageState extends State<InitialPage> {
                 ),
               ),
               //
+              Stack(
+                children: [
+                  //
+                  Container(
+                    child: CustomPaint(
+                      size: Size(w * .8, (h * .2).toDouble()),
+                      painter: RPSCustomPainter(),
+                    ),
+                  ),
+                  //
+                  Container(
+                    padding: EdgeInsets.only(left: w * .2),
+                    alignment: Alignment.centerLeft,
+                    child: Text(
+                      "21",
+                      style: TextStyle(
+                        fontSize: 50,
+                        color: ThemeUtil.whiteColor,
+                      ),
+                    ),
+                    width: w * .8,
+                    height: h * .2,
+                  )
+                ],
+              ),
+              /*
               Container(
                 width: w * .8,
                 height: h * .15,
@@ -155,7 +183,9 @@ class _InitialPageState extends State<InitialPage> {
                   ],
                 ),
               ),
+              */
               //
+
               Padding(
                 padding: const EdgeInsets.only(top: 25),
                 child: Container(
@@ -187,12 +217,14 @@ class _InitialPageState extends State<InitialPage> {
                   ),
                 ),
               ),
+
               //
               //
             ],
           ),
         ),
         //
+        /*
         Container(
           width: w * .8,
           height: h * .2,
@@ -200,6 +232,7 @@ class _InitialPageState extends State<InitialPage> {
           alignment: Alignment.center,
           child: Text("PROPAGANDAS"),
         ),
+        */
         //
       ],
     );

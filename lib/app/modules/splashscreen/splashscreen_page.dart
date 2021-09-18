@@ -33,7 +33,7 @@ class SplashscreenPageState extends State<SplashscreenPage> {
       color: Colors.black12,
       child: Container(
         decoration: BoxDecoration(
-          gradient: ThemeUtil.mainPurpleGradient,
+          gradient: ThemeUtil.mainPurpleGradient2,
         ),
         child: SafeArea(
           child: Scaffold(

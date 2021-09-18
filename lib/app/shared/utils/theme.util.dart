@@ -13,6 +13,17 @@ abstract class ThemeUtil {
     tileMode: TileMode.clamp,
   );
 
+  static final mainPurpleGradient2 = LinearGradient(
+    colors: [
+      Color(0xffA920A9),
+      Color(0xff1a0833),
+    ],
+    begin: const FractionalOffset(1.0, 0.0),
+    end: const FractionalOffset(0.0, 1.0),
+    stops: [0.0, 1.0],
+    tileMode: TileMode.clamp,
+  );
+
   static const mainPurpleColor = Color(0xff5F408B);
   static const whiteColor = Color(0xfff7f7f7);
 

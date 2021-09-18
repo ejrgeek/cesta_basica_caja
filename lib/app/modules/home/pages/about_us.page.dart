@@ -103,13 +103,13 @@ class _AboutUsPageState extends State<AboutUsPage> {
                             TextSpan(
                               text: "que tem como objetivo ajudar a população de " +
                                   "Cajazeiras - PB, fazendo doações anônimas, mas " +
-                                  "este projeto tem o intúito de estimular outras " +
-                                  "pessoas, empreendedores e empresários a colaborar " +
-                                  "com doações para que mais pessoas possam receber " +
-                                  "cestas básicas sorteadas. Vimos que esses são tempos " +
-                                  "difíceis em que todos precisamos nos unir e ajudar " +
-                                  "outros com o máximo que nós podemos dar, acreditamos " +
-                                  "que outros irão ajudar, mas independente de outros " +
+                                  "também estimular outras pessoas, empreendedores " +
+                                  "e empresários a colaborar com doações para que " +
+                                  "mais pessoas possam receber cestas básicas. " + 
+                                  "Vimos que esses são tempos difíceis em que todos " +
+                                  "precisamos nos unir e ajudar outros com o " +
+                                  "máximo que nós podemos dar, acreditamos que " +
+                                  "outros irão ajudar, mas independente disso nós " +
                                   "continuaremos fazendo o nosso melhor para ajudar " +
                                   "o maior número de pessoas possível.",
                               style: TextStyle(
@@ -181,7 +181,7 @@ class _AboutUsPageState extends State<AboutUsPage> {
                   child: Text(
                     "Não pretendemos fazer nenhuma propaganda política, divulgação, " +
                     "favoritismo ou parceria que favoreça partidos políticos. " +
-                    "Pretendemos ajudar as pessoas de forma justa e moral.",
+                    "Pretendemos ajudar as pessoas de forma justa, moral e transparente.",
                     textAlign: TextAlign.justify,
                     style: TextStyle(
                       color: ThemeUtil.mainPurpleColor,
@@ -223,9 +223,6 @@ class _AboutUsPageState extends State<AboutUsPage> {
                     ),
                   ),
                 ),
-                //
-                //
-                //
                 //
               ],
             ),

@@ -144,7 +144,7 @@ class _HomePageState extends ModularState<HomePage, HomeStore> {
           ),
         ),
         footer: Container(
-          height: h * .35,
+          height: h * .3,
           width: w,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -176,7 +176,7 @@ class _HomePageState extends ModularState<HomePage, HomeStore> {
           ),
         ),
         decoration: BoxDecoration(
-          gradient: ThemeUtil.mainPurpleGradient,
+          gradient: ThemeUtil.mainPurpleGradient2,
         ),
       ),
     );
