@@ -20,7 +20,7 @@ class _DrawnPeoplePageState extends State<DrawnPeoplePage> {
       "13 de Setembro de 2021": [
         {
           "imagem":
-              "https://instagram.fjdo14-1.fna.fbcdn.net/v/t51.2885-19/s150x150/241510647_910366119829043_1153190481513960003_n.jpg?_nc_ht=instagram.fjdo14-1.fna.fbcdn.net&_nc_ohc=ukJwzmCHW4cAX-z78gY&edm=ABfd0MgBAAAA&ccb=7-4&oh=f65f7a7c2074923c70b6e30f154ed8f4&oe=614708FB&_nc_sid=7bff83",
+              "https://instagram.fjdo14-1.fna.fbcdn.net/v/t51.2885-19/s320x320/241510647_910366119829043_1153190481513960003_n.jpg?_nc_ht=instagram.fjdo14-1.fna.fbcdn.net&_nc_ohc=fFSM2oSIzj0AX-ijzq3&edm=ABfd0MgBAAAA&ccb=7-4&oh=45e45d8bb48192b0ff300b786ab6885f&oe=614FB1C3&_nc_sid=7bff83",
           "nome": "Valesca Naiary"
         },
         {
@@ -103,17 +103,6 @@ class _DrawnPeoplePageState extends State<DrawnPeoplePage> {
           ),
           title: Text("Sorteados"),
           centerTitle: true,
-          actions: [
-            IconButton(
-              icon: Icon(
-                Icons.notifications,
-                color: ThemeUtil.whiteColor,
-              ),
-              onPressed: () {
-                //! TODO: IMPLEMENTS NOTIFICATION PAGE
-              },
-            ),
-          ],
         ),
         //
         Container(

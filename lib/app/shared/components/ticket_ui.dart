@@ -2,6 +2,7 @@ import 'package:cesta_basica_caja/app/shared/utils/theme.util.dart';
 import 'package:flutter/material.dart';
 
 class RPSCustomPainter extends CustomPainter {
+
   @override
   void paint(Canvas canvas, Size size) {
     Paint paint_0 = new Paint()

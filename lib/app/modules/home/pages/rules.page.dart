@@ -39,17 +39,6 @@ class _RulesPageState extends State<RulesPage> {
           ),
           title: Text("Regras"),
           centerTitle: true,
-          actions: [
-            IconButton(
-              icon: Icon(
-                Icons.notifications,
-                color: ThemeUtil.whiteColor,
-              ),
-              onPressed: () {
-                //! TODO: IMPLEMENTS NOTIFICATION PAGE
-              },
-            ),
-          ],
         ),
         //
         Container(

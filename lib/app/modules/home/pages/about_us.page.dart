@@ -33,17 +33,6 @@ class _AboutUsPageState extends State<AboutUsPage> {
           ),
           title: Text("Sobre nós"),
           centerTitle: true,
-          actions: [
-            IconButton(
-              icon: Icon(
-                Icons.notifications,
-                color: ThemeUtil.whiteColor,
-              ),
-              onPressed: () {
-                //! TODO: IMPLEMENTS NOTIFICATION PAGE
-              },
-            ),
-          ],
         ),
         //
         Container(
@@ -105,7 +94,7 @@ class _AboutUsPageState extends State<AboutUsPage> {
                                   "Cajazeiras - PB, fazendo doações anônimas, mas " +
                                   "também estimular outras pessoas, empreendedores " +
                                   "e empresários a colaborar com doações para que " +
-                                  "mais pessoas possam receber cestas básicas. " + 
+                                  "mais pessoas possam receber cestas básicas. " +
                                   "Vimos que esses são tempos difíceis em que todos " +
                                   "precisamos nos unir e ajudar outros com o " +
                                   "máximo que nós podemos dar, acreditamos que " +
@@ -147,9 +136,9 @@ class _AboutUsPageState extends State<AboutUsPage> {
                   alignment: Alignment.center,
                   child: Text(
                     "Não aceitamos qualquer tipo de apoio, analisamos todos nossos " +
-                    "apoiadores, prezamos por pessoas de boa índole, com desejo " +
-                    "de ajudar e vocação para o bem, recusamos qualquer forma de apoio " +
-                    "focada em se autopromover.",
+                        "apoiadores, prezamos por pessoas de boa índole, com desejo " +
+                        "de ajudar e vocação para o bem, recusamos qualquer forma de apoio " +
+                        "focada em se autopromover.",
                     textAlign: TextAlign.justify,
                     style: TextStyle(
                       color: ThemeUtil.mainPurpleColor,
@@ -180,8 +169,8 @@ class _AboutUsPageState extends State<AboutUsPage> {
                   alignment: Alignment.center,
                   child: Text(
                     "Não pretendemos fazer nenhuma propaganda política, divulgação, " +
-                    "favoritismo ou parceria que favoreça partidos políticos. " +
-                    "Pretendemos ajudar as pessoas de forma justa, moral e transparente.",
+                        "favoritismo ou parceria que favoreça partidos políticos. " +
+                        "Pretendemos ajudar as pessoas de forma justa, moral e transparente.",
                     textAlign: TextAlign.justify,
                     style: TextStyle(
                       color: ThemeUtil.mainPurpleColor,
@@ -212,10 +201,10 @@ class _AboutUsPageState extends State<AboutUsPage> {
                   padding: EdgeInsets.only(bottom: 50),
                   alignment: Alignment.center,
                   child: Text(
-                    "Pretendemos usar como campo de anuncio futuramente, para " + 
-                    "arrecadar dinheiro para manter o projeto no ar, send possível " + 
-                    "anunciar produtos, serviços, empresas e outras coisas que não " +
-                    "seja julgado por nós como caráter duvidoso.",
+                    "Pretendemos usar como campo de anuncio futuramente, para " +
+                        "arrecadar dinheiro para manter o projeto no ar, send possível " +
+                        "anunciar produtos, serviços, empresas e outras coisas que não " +
+                        "seja julgado por nós como caráter duvidoso.",
                     textAlign: TextAlign.justify,
                     style: TextStyle(
                       color: ThemeUtil.mainPurpleColor,

@@ -40,17 +40,6 @@ class _ContactPageState extends State<ContactPage> {
           ),
           title: Text("Página de contato"),
           centerTitle: true,
-          actions: [
-            IconButton(
-              icon: Icon(
-                Icons.notifications,
-                color: ThemeUtil.whiteColor,
-              ),
-              onPressed: () {
-                //! TODO: IMPLEMENTS NOTIFICATION PAGE
-              },
-            ),
-          ],
         ),
         //
         Container(
@@ -155,31 +144,32 @@ class _ContactPageState extends State<ContactPage> {
                   ),
                   // BOTAO
                   Container(
-                width: w * .8,
-                height: h * .06,
-                child: ElevatedButton(
-                  style: ButtonStyle(
-                    backgroundColor: MaterialStateProperty.all<Color>(
-                      ThemeUtil.whiteColor,
-                    ),
-                    shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                      RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(0),
-                        side: BorderSide(
+                    width: w * .8,
+                    height: h * .06,
+                    child: ElevatedButton(
+                      style: ButtonStyle(
+                        backgroundColor: MaterialStateProperty.all<Color>(
+                          ThemeUtil.whiteColor,
+                        ),
+                        shape:
+                            MaterialStateProperty.all<RoundedRectangleBorder>(
+                          RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(0),
+                            side: BorderSide(
+                              color: ThemeUtil.mainPurpleColor,
+                            ),
+                          ),
+                        ),
+                      ),
+                      onPressed: () {},
+                      child: Text(
+                        "ENVIAR",
+                        style: TextStyle(
                           color: ThemeUtil.mainPurpleColor,
                         ),
                       ),
                     ),
                   ),
-                  onPressed: () {},
-                  child: Text(
-                    "ENVIAR",
-                    style: TextStyle(
-                      color: ThemeUtil.mainPurpleColor,
-                    ),
-                  ),
-                ),
-              ),
                   // OUTRAS INFOS
                   Container(
                     padding: EdgeInsets.all(15),

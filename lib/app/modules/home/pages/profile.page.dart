@@ -31,17 +31,6 @@ class _ProfilePageState extends State<ProfilePage> {
           ),
           title: Text("Meu perfil"),
           centerTitle: true,
-          actions: [
-            IconButton(
-              icon: Icon(
-                Icons.notifications,
-                color: ThemeUtil.whiteColor,
-              ),
-              onPressed: () {
-                //! TODO: IMPLEMENTS NOTIFICATION PAGE
-              },
-            ),
-          ],
         ),
         //
         Container(

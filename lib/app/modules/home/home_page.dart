@@ -1,6 +1,6 @@
 import 'package:cesta_basica_caja/app/modules/home/home_store.dart';
 import 'package:cesta_basica_caja/app/modules/home/pages/rules.page.dart';
-import 'package:cesta_basica_caja/app/modules/home/pages/supporters.page.dart';
+import 'package:cesta_basica_caja/app/modules/home/pages/supporters/supporters.page.dart';
 import 'package:cesta_basica_caja/app/shared/utils/theme.util.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
@@ -8,6 +8,7 @@ import 'package:flutter_modular/flutter_modular.dart';
 import 'package:kf_drawer/kf_drawer.dart';
 
 import 'pages/about_us.page.dart';
+import 'pages/donations/donations.page.dart';
 import 'pages/drawn_people.page.dart';
 import 'pages/contact.page.dart';
 import 'pages/initial.page.dart';
@@ -31,33 +32,69 @@ class _HomePageState extends ModularState<HomePage, HomeStore> {
       initialPage: InitialPage(),
       items: [
         KFDrawerItem.initWithPage(
-          text: Text('Início', style: TextStyle(color: Colors.white)),
-          icon: Icon(Icons.home, color: Colors.white),
+          text: Text(
+            'Início',
+            style: TextStyle(
+              color: Colors.white,
+            ),
+          ),
+          icon: Icon(
+            Icons.home,
+            color: Colors.white,
+          ),
           page: InitialPage(),
         ),
         KFDrawerItem.initWithPage(
           text: Text(
             'Meu perfil',
-            style: TextStyle(color: Colors.white),
+            style: TextStyle(
+              color: Colors.white,
+            ),
           ),
-          icon: Icon(Icons.account_circle, color: Colors.white),
+          icon: Icon(
+            Icons.account_circle,
+            color: Colors.white,
+          ),
           page: ProfilePage(),
         ),
         KFDrawerItem.initWithPage(
           text: Text(
             'Sorteados',
-            style: TextStyle(color: Colors.white),
+            style: TextStyle(
+              color: Colors.white,
+            ),
           ),
-          icon: Icon(Icons.redeem, color: Colors.white),
+          icon: Icon(
+            Icons.redeem,
+            color: Colors.white,
+          ),
           page: DrawnPeoplePage(),
         ),
         KFDrawerItem.initWithPage(
           text: Text(
             'Apoiadores',
-            style: TextStyle(color: Colors.white),
+            style: TextStyle(
+              color: Colors.white,
+            ),
           ),
-          icon: Icon(Icons.groups, color: Colors.white),
+          icon: Icon(
+            Icons.groups,
+            color: Colors.white,
+          ),
           page: SupportersPage(),
+        ),
+        KFDrawerItem.initWithPage(
+          text: Text(
+            'Doações',
+            style: TextStyle(
+              color: Colors.white,
+            ),
+          ),
+          icon: Icon(
+            Icons.attach_money,
+            color: Colors.white,
+          ),
+          page: DonationsPage(),
         ),
         KFDrawerItem.initWithPage(
           text: Text(

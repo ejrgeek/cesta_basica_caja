@@ -1,9 +1,10 @@
-import 'package:cesta_basica_caja/app/modules/home/pages/supporters_monthly.page.dart';
 import 'package:cesta_basica_caja/app/shared/utils/theme.util.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:kf_drawer/kf_drawer.dart';
 import 'package:url_launcher/url_launcher.dart' show launch;
+
+import 'supporters_monthly.page.dart';
 
 // ignore: must_be_immutable
 class SupportersPage extends KFDrawerContent {
@@ -116,17 +117,6 @@ class _SupportersPageState extends State<SupportersPage> {
           ),
           title: Text("Apoiadores"),
           centerTitle: true,
-          actions: [
-            IconButton(
-              icon: Icon(
-                Icons.notifications,
-                color: ThemeUtil.whiteColor,
-              ),
-              onPressed: () {
-                //! TODO: IMPLEMENTS NOTIFICATION PAGE
-              },
-            ),
-          ],
         ),
         //
 
